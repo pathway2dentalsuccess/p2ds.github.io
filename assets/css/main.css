@@ -3112,14 +3112,14 @@ input, select, textarea {
 				border: 0;
 			}
 
-		/* added for logo */
+        /* added for logo */
 		.frame {
 			white-space: nowrap; 
 			text-align: left;
 			margin: 8px 0;
 			width: calc(100% + 3.5em);
 		}
-		
+
 		.helper {
 			display: inline-block;
 			/*height: 100%;*/
