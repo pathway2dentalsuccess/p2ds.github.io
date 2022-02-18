@@ -2998,13 +2998,30 @@ input, select, textarea {
 
 		}
 
-/* reCaptcha */ /* added */
+/* added */
+/* reCaptcha */
 .g-recaptcha {
 	margin-bottom: 20px;
 }
 .status span {
 	color: red;
 }
+
+/* Cookie Consent Popup */ 
+#consent-popup {
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	padding: 2rem;
+	background-color: #7985b0;
+	transition: opacity 1s ease;
+}
+
+	.hidden {
+		opacity: 0;
+	}
+
 /* until here */
 
 /* Features */
