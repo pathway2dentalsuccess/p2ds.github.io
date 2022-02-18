@@ -1,10 +1,10 @@
 <?php
-    $name = $_Post['name'];
-    $visitor_email = $Post['email'];
+    $name = $_POST['name'];
+    $visitor_email = $POST['email'];
     $message = $_POST['message']
 
     $email_from = 'pathwaytodentalsuccess@gmail.com'
-    $email_subject = 'New Message From Website'
+    $email_subject = "New Message From Website"
     $email_body = "User Name: $name.\n".
                     "User Email: $visitor_email.\n".
                         "User Message: $message.\n";
