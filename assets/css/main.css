@@ -2998,6 +2998,15 @@ input, select, textarea {
 
 		}
 
+/* reCaptcha */ /* added */
+.g-recaptcha {
+	margin-bottom: 20px;
+}
+.status span {
+	color: red;
+}
+/* until here */
+
 /* Features */
 
 	.features {
