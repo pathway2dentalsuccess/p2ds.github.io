@@ -1,5 +1,5 @@
 <?php
-    $secretKey = "6LeVtYYeAAAAAEN5hAd88EhmPOqz0WKh_5X1_Ip7";
+    $secretKey = "";
     $responseKey = $_POST['g-recaptcha-response'];
     $UserIP = $_SERVER['REMOTE_ADDR'];
     $url = "https://google.com/recaptcha/api/siteverify?secret=$secretKey&response=$responseKey&remoteip=$UserIP";
