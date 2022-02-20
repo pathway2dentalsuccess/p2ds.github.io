@@ -3008,19 +3008,33 @@ input, select, textarea {
 }
 
 /* Cookie Consent Popup */ 
-#consent-popup {
-	position: fixed;
-	bottom: 0;
+.cookie-consent-modal{
+    height: 25vh;
+    width: 30vw;
+    position: fixed;
+    bottom: 0;
     left: 0;
-    right: 0;
-	padding: 1.5rem;
-	background-color: #7985b0ef;
-	transition: opacity 1s ease;
+    z-index: 999;
+    display: none;
+    align-items: flex-end;
+	background-color: rgba(152, 167, 231, 0.897);
+    padding: 2.5vw 2.5vw;
+    border-radius: 10px 10px 0 0;
 }
 
-	#consent-popup .hidden {
-		opacity: 0;
-	}
+.cookie-consent-modal.active{
+    display: flex;
+}
+
+.btn{
+    border: none;
+    outline: none;
+    text-transform: uppercase;
+}
+.btn.accept{
+    background-color: #4c5c96;
+    color: #fff;
+}
 
 /* until here */
 
