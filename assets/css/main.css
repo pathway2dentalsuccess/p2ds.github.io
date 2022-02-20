@@ -3009,7 +3009,6 @@ input, select, textarea {
 
 /* Cookie Consent Popup */ 
 .cookie-consent-modal{
-
 	margin: auto; /*change*/
 	max-width: 100%; /*change*/
 	height: 22%;
@@ -3033,6 +3032,9 @@ input, select, textarea {
     border: none;
     outline: none;
     text-transform: uppercase;
+	width: 35%;
+	text-align: center;
+	padding-inline: 0;
 }
 .btn.accept{
     background-color: #4c5c96;
