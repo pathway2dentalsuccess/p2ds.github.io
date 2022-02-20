@@ -3009,8 +3009,9 @@ input, select, textarea {
 
 /* Cookie Consent Popup */ 
 .cookie-consent-modal{
-    height: 25vh;
-    width: 30vw;
+    max-height: 25vh; /*change*/
+    max-width: 30vw; /*change*/
+	margin: auto; /*change*/
     position: fixed;
     bottom: 0;
     left: 0;
