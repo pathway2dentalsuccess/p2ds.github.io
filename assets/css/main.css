@@ -3012,12 +3012,14 @@ input, select, textarea {
 
 	margin: auto; /*change*/
 	max-width: 100%; /*change*/
+	height: 22%;
     position: fixed;
     bottom: 0;
-    left: 0;
+	left: 0;
+	right: 0;
     z-index: 999;
     display: none;
-    align-items: flex-end;
+    align-items: center;
 	background-color: rgba(152, 167, 231, 0.897);
     padding: 2.5vw 2.5vw;
     border-radius: 10px 10px 0 0;
